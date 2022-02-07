@@ -45,9 +45,9 @@ footer{
 .colonna2{
     height: 318px;
     background-color: aquamarine;
-    width: calc( 60% - 42px );
-    margin-left: 42px;
-    margin-right: 42px;
+    width: calc( 60% - 43px );
+    margin-left: 43px;
+    margin-right: 43px;
     float: left;
 }
 

@@ -56,3 +56,10 @@ footer{
     display: table;
     clear: both;
 }
+
+header,
+main,
+section,
+footer{
+    margin-top: 42px;
+}

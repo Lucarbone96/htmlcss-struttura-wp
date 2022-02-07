@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;  
 }
+
+body{
+    width: 80%;
+    margin: 30px auto;
+}
+
+header{
+    height: 100px;
+    background-color: palevioletred;
+}
+
+footer{
+    height: 100px;
+    background-color: darkorchid;
+}
+
+.sectionkhaki{
+    height: 300px;
+    background-color: khaki;
+}
+
+.clearfix{
+    height: 450px;
+    background-color: red;
+}

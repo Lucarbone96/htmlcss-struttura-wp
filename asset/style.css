@@ -28,3 +28,22 @@ footer{
     height: 450px;
     background-color: red;
 }
+
+.row{
+    height: 90px;
+    background-color: aquamarine;
+}
+
+.colonna1{
+    height: 360px;
+    background-color: black;
+    width: 40%;
+    float: left;
+}
+
+.colonna2{
+    height: 360px;
+    background-color: white;
+    width: 60%;
+    float: right;
+}

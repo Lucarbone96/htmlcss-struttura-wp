@@ -25,25 +25,34 @@ footer{
 }
 
 .clearfix{
-    height: 450px;
-    background-color: red;
+    height: 492px;
+    background-color: blue;
 }
 
 .row{
     height: 90px;
     background-color: aquamarine;
+    margin-bottom: 42px;
 }
 
 .colonna1{
-    height: 360px;
-    background-color: black;
-    width: 40%;
+    height: 318px;
+    background-color: aquamarine;
+    width: 18%;
     float: left;
 }
 
 .colonna2{
-    height: 360px;
-    background-color: white;
-    width: 60%;
-    float: right;
+    height: 318px;
+    background-color: aquamarine;
+    width: calc( 60% - 42px );
+    margin-left: 42px;
+    margin-right: 42px;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
